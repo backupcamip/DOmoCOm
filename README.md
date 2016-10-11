@@ -1,11 +1,50 @@
 # DOmoCOm
-Android App to interact with Home automation server
 
-DOmoCom manages:
-- Vocal command to YANA server.
-- Action start/stop automation on timetable
-- Action start/stop automation on luminosity 
-- Action start/stop automation on home in/out
+Android App to Automate and drive Y.A.N.A server
+ 
+First acknowledge Y.A.N.A (http://projet.idleman.fr/yana/?page=Accueil)
 
-DOmoCom can be installed on each family mobile phone, but also on a resident mobile phone used as main Home control.
+First launch: set Token and server URL (ip or dns)
+
+Functionnalities:
+
+    Head Tap: vocal recognition link to an yana action
+    Commands: Manual click Action
+    Lumi: Plan daily action to start/Stop in the given timetable, based on luminosity device (Home device)
+    Prog: Plan daily action to start/stop at a given time (Hour / minute)
+
+Important: For Lumi or Prog, if no action was initialized before your first one, restart the app to active the timer (not activated if no Lumi or Prog)
+
+DOmoCom can be installed on each family's mobile phone, but also on a resident mobile phone used as main Home control.
+
+V206
+
+    Manage actions from YANA if removed, associated associated action into DomoCom unlinked
+    Relay text from RPI to admin
+    Rewrite HomeCheck plugin to manage people/alarm/Radio and GPIO Device (TX/RX)
+    Add HomeCheck management
+    Add Internal alarm detector
+    Add auto connect wifi
+    Add text order (send/receive orders)
+    Add MultiActions
+    Add Action on detection
+
+Registration needed
+
+** FR **
+
+Prendre connaissance de Y.A.N.A (http://projet.idleman.fr/yana/?page=Accueil)
+
+Au premier lancement, initialiser Token et IP/DNS du server
+
+Fonctionnalités:
+
+    Tape sur Tete: Reconnaissance vocale liée à une action sur le serveur
+    Commands: Action activée manuellement
+    Lumi: Programme une action Start/Stop journalière dans un intervale de temps (Heure), basée sur la luminosité détéctée par le mobile.
+    Prog: Programme une action start/stop journalière à une heure donnée (Heure/minute)
+
+Important: Si aucune action Lumi ou prog n'etait programmée avant, redemarrer l'app pour activer le timer (désactivé pas défaut si pas de programme).
+
+Enregistrement nécessaire
 
